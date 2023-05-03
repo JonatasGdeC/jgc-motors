@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JGC Motors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>JGC Motors</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre">Sobre a loja</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#catalogo">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div id="carousel-img" class="carousel slide" data-bs-ride='carousel'>
+            <div class="carousel-inner">
+                <div data-bs-interval="4000" class="carousel-item active">
+                    <img class="d-block w-100" src="./img/slide 1.jpg">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/slide 2.jpg">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/slide 3.jpg">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/slide 4.jpg">
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/slide 5.jpg">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-img" class="active" data-bs-slide-to="0" ></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="4"></button>
+            </div>
+        </div>
+
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre a loja</h2>
+                <div class="row descricao-loja">
+                    <div class="col">
+                        <div class="carousel carousel-fade slide" data-bs-ride='carousel'>
+                            <div class="carousel-inner">
+                                <div data-bs-interval="7000" class="carousel-item active">
+                                    <img id="img-aboult" class="d-block" src="./img/slide-sobre-1.jpg">
+                                </div>
+                                <div data-bs-interval="7000" class="carousel-item">
+                                    <img id="img-aboult" class="d-block" src="./img/slide-sobre-2.jpg">
+                                </div>
+                                <div data-bs-interval="7000" class="carousel-item">
+                                    <img id="img-aboult" class="d-block" src="./img/slide-sobre-3.jpg">
+                                </div>
+                                <div data-bs-interval="7000" class="carousel-item">
+                                    <img id="img-aboult" class="d-block" src="./img/slide-sobre-4.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus amet assumenda aspernatur ad corporis dolore maxime atque sed deleniti, possimus error doloribus accusantium blanditiis in? Officia consectetur quo accusantium debitis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum earum eius, soluta accusamus quo repudiandae, ex nostrum unde officiis hic possimus cumque sit voluptates aut, placeat tempore itaque alias omnis?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam consectetur adipisci soluta corporis quos facilis, perspiciatis aliquid rem. Deserunt magni delectus a numquam! Architecto voluptas dolorem fugiat temporibus id.</p>
+                        <a class="btn btn-primary" href="#contato">Entre em contato</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo">
+            <div class="container">
+                <h2>Catálogo</h2>
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Carros esportivos</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Carros de luxo</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Carros antigos</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link" type="button">Motos esportivas</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="row">
+                            <div class="col coluna-produtos">
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Ferrari Roma</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://lh3.googleusercontent.com/zTzTEmIUgv9wFFx0mcGRki1COhtqnjNzHYO2VvAu_0AL4Mc3UPTR8LaH3upY06dtdRU2qMRaejIHRCMhfxeHqrrWR8xfg2p0snhJbQ7Q" alt="Imagem de uma Ferrari Roma">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 3.400.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Porsche 911 GT3</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://cdn.motor1.com/images/mgl/vxxvy6/s3/2023-porsche-911-gt3-rs-teaser-image.jpg" alt="Imagem de uma Porsche 911 GT3">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 1.800.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Mercedes-AMG GT</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://www.topgear.com/sites/default/files/cars-car/image/2020/09/_atf5691.jpeg" alt="Imagem de uma Mercedes-AMG GT Black Series">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 2.000.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">BMW M3</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://cdn.motor1.com/images/mgl/R09nm/s1/bmw-m3-2021-im-test.webp" alt="Imagem de uma BMW M3">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 800.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Ford Mustang Mach 1</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://autoentusiastas.com.br/ae/wp-content/uploads/2021/04/Autoentusiastas-Mustang-Mach-1-09.jpg" alt="Imagem de um Ford Mustang Mach 1">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 550.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Porsche Taycan</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://quatrorodas.abril.com.br/wp-content/uploads/2021/11/PORSCHE-TAYCAN-GTS-2.jpg?quality=70&strip=info&w=1280&h=720&crop=1" alt="Imagem de uma Porsche Taycan">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 620.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <div class="row">
+                            <div class="col coluna-produtos">
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">BMW X1</h3>
+                                    </header>
+                                    <img class="imagem-produtos"
+                                        src="https://revistacarro.com.br/wp-content/uploads/2022/06/BMW-X1-xDrive23i_2.jpg"
+                                        alt="Imagem de uma BMW X1">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa
+                                            necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam
+                                            qui, rerum veniam!</p>
+                                        <h4>R$ 240.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                        
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Volvo C40</h3>
+                                    </header>
+                                    <img class="imagem-produtos"
+                                        src="https://fotos.jornaldocarro.estadao.com.br/wp-content/uploads/2022/02/08211748/Volvo-C40-Foto-Alexandre-Lefebvre-9-scaled.jpg"
+                                        alt="Imagem de uma Volvo C40">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa
+                                            necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam
+                                            qui, rerum veniam!</p>
+                                        <h4>R$ 370.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                        
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Range Rover</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://revistacarro.com.br/?attachment_id=52689" alt="Imagem de uma Range Rover">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 450.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Mercedes-benz A 35 AMG</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://4.bp.blogspot.com/-lMIsrRl9VIg/XJtRh1V9J0I/AAAAAAACu4A/sL0sJRvCJFMp0KEpQsJaFwpPnHlswvsiACLcBGAs/s1600/mercedes-A35-AMG-Sedan%2B%25286%2529.jpg" alt="Imagem de uma Mercedes-benz A 35 AMG">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 290.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Jaguar F-PACE</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://p2.trrsf.com/image/fget/cf/1200/675/middle/images.terra.com/2021/06/07/2021-jaguar-f-pace-svr-orange.jpg" alt="Imagem de um Jaguar F-PACE">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 300.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Audi Q3</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://cdn.motor1.com/images/mgl/eooA2W/s1/audi-q3-sportback-performance-black-2.0t-quattro-2023.jpg" alt="Imagem de uma Audi Q3">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 110.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        <div class="row">
+                            <div class="col coluna-produtos">
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Mustang Hard Top 66</h3>
+                                    </header>
+                                    <img class="imagem-produtos"
+                                        src="https://http2.mlstatic.com/D_NQ_NP_602075-MLB54504611679_032023-O.jpg" alt="Imagem de um Mustang Hard Top 66">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa
+                                            necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam
+                                            qui, rerum veniam!</p>
+                                        <h4>R$ 300.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                        
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Chevrolet Opala</h3>
+                                    </header>
+                                    <img class="imagem-produtos"
+                                        src="https://i.pinimg.com/originals/80/e8/b6/80e8b6862206fa891e60df419d1b50b3.jpg" alt="Imagem de um Chevrolet Opala">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa
+                                            necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam
+                                            qui, rerum veniam!</p>
+                                        <h4>R$ 95.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                        
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Shelby Cobra 4.8 V8</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://i.pinimg.com/originals/56/33/9b/56339b7fdfec345aef83e6685726172b.jpg" alt="Imagem de um Shelby Cobra 4.8 V8">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 260.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Dodge Dart Deluxo</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://motortudo.com/wp-content/uploads/2018/12/Dodge-Dart-1976-Motor-Tudo-19.jpg" alt="Imagem de um Dodge Dart Deluxo">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 195.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Oldsmobile Delta</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://cdn.dealeraccelerate.com/cam/34/719/10983/1920x1440/1975-oldsmobile-delta-88-sedan" alt="Imagem de um Oldsmobile Delta">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 180.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Chevrolet Impala Ss</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://p.turbosquid.com/ts-thumb/E4/t79XNg/1d7SswRA/chevrolet_impala_ss_1967_0000/jpg/1490610504/600x600/fit_q87/cb5b43d17741c6132d924a33b0df45a8e728cf9b/chevrolet_impala_ss_1967_0000.jpg" alt="Imagem de um Chevrolet Impala Ss">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 110.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba4">
+                        <div class="row">
+                            <div class="col coluna-produtos">
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">BMW S1000</h3>
+                                    </header>
+                                    <img class="imagem-produtos"
+                                        src="https://legspeed.com.br/blog/wp-content/uploads/2017/08/nova-bmw-s1000RR-1024x576.jpg" alt="Imagem de uma BMW S1000">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa
+                                            necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam
+                                            qui, rerum veniam!</p>
+                                        <h4>R$ 70.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                        
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Kawasaki Ninja</h3>
+                                    </header>
+                                    <img class="imagem-produtos"
+                                        src="https://content2.kawasaki.com/ContentStorage/KMB/ProductTrimGroup/18/605a89f3-f9c3-4e8f-b1f8-d8b17e5551c8.jpg?w=750" alt="Imagem de uma Kawasaki Ninja">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa
+                                            necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam
+                                            qui, rerum veniam!</p>
+                                        <h4>R$ 30.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                        
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Yamaha Yzf</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://portallubes.com.br/wp-content/uploads/2019/07/YZF-R1-4-1024x683.jpg" alt="Imagem de uma Yamaha Yzf">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 35.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Honda Cbr 600</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://img.olx.com.br/images/18/181346022380641.jpg" alt="Imagem de uma Honda Cbr 600">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 40.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Yamaha Xt 660</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://i.ytimg.com/vi/PjuCymbmjn8/maxresdefault.jpg" alt="Imagem de uma Yamaha Xt 660">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 35.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+
+                                <article class="card">
+                                    <header class="card-header">
+                                        <h3 class="h5">Honda XRE 300</h3>
+                                    </header>
+                                    <img class="imagem-produtos" src="https://www.motox.com.br/publix/imagens2009/999990059_002.jpg" alt="Imagem de uma Honda XRE 300">
+                                    <div class="container">
+                                        <h4 class="h5">Descrição:</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum fuga porro nemo voluptatibus culpa necessitatibus est atque consequuntur magni quasi, reprehenderit sint blanditiis maxime eveniet ipsam qui, rerum veniam!</p>
+                                        <h4>R$ 30.000</h4>
+                                        <a class="btn btn-primary" href="#">Tenho Interesse</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Entre em contato:</h2>
+                        <form id="form">
+                            <label class="form-label" for="name">Nome:</label>
+                            <input class="form-control" name="name" type="text" id="name">
+                            <label class="form-label" for="telefone">Telefone:</label>
+                            <input class="form-control" name="telefone" type="tel" id="telefone">
+                            <label class="form-label" for="email">Email:</label>
+                            <input class="form-control" name="email" type="email" id="email">
+                            <label class="form-label" for="cep">CEP:</label>
+                            <input class="form-control" name="cep" type="text" id="cep">
+                            <label class="form-label" for="interesse">Automóvel de interesse:</label>
+                            <select id="interesse">
+                                <option>Está no catálogo</option>
+                                <option>Não está no catálogo</option>
+                            </select>
+                            <input class="form-control" type="text" id="automovel-interesse" name="automovelInteresse">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="receber-informacoes">
+                                <label for="receber-informacoes" class="form-check-label">Deseja receber nossas informações por email?</label>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-between align-items-center rodape">
+                        <p>&copy; Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
